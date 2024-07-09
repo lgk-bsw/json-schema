@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json.schemastore.org/appsettings.json",
+    "definitions": {
+        "appSettings": {
+            "type": "object",
+            "properties": {
+                "PatOrgServerBaseAddress": {
+                    "title": "PatOrg Server base address",
+                    "type": "string"
+                },
+                "LoginTimeOut": {
+                    "title": "Login time out",
+                    "type": "integer"
+                }
+            }
+        }
+    },
+    "properties": {
+        "AppSettings": {
+            "$ref": "#/definitions/appSettings"
+        }
+    },
+    "title": "JSON schema Florence's appsettings.json file",
+    "type": "object"
+}
